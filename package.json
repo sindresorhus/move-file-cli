@@ -1,6 +1,6 @@
 {
 	"name": "move-file-cli",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Move a file on the command-line",
 	"license": "MIT",
 	"repository": "sindresorhus/move-file-cli",
