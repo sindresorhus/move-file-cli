@@ -40,13 +40,13 @@
 		"partitions"
 	],
 	"dependencies": {
-		"meow": "^5.0.0",
-		"move-file": "^1.2.0"
+		"meow": "^7.0.1",
+		"move-file": "^2.0.0"
 	},
 	"devDependencies": {
-		"ava": "^2.3.0",
-		"execa": "^2.0.4",
-		"tempy": "^0.3.0",
-		"xo": "^0.24.0"
+		"ava": "^3.8.2",
+		"execa": "^4.0.2",
+		"tempy": "^0.5.0",
+		"xo": "^0.32.0"
 	}
 }
