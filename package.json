@@ -4,16 +4,17 @@
 	"description": "Move a file on the command-line",
 	"license": "MIT",
 	"repository": "sindresorhus/move-file-cli",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
 	"bin": {
 		"move-file": "cli.js"
 	},
 	"engines": {
-		"node": ">=8"
+		"node": ">=10"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -40,13 +41,13 @@
 		"partitions"
 	],
 	"dependencies": {
-		"meow": "^5.0.0",
-		"move-file": "^1.2.0"
+		"meow": "^7.0.1",
+		"move-file": "^2.0.0"
 	},
 	"devDependencies": {
-		"ava": "^2.3.0",
-		"execa": "^2.0.4",
-		"tempy": "^0.3.0",
-		"xo": "^0.24.0"
+		"ava": "^2.4.0",
+		"execa": "^4.0.2",
+		"tempy": "^0.5.0",
+		"xo": "^0.32.0"
 	}
 }

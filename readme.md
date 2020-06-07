@@ -1,16 +1,14 @@
-# move-file-cli [![Build Status](https://travis-ci.org/sindresorhus/move-file-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/move-file-cli)
+# move-file-cli [![Build Status](https://travis-ci.com/sindresorhus/move-file-cli.svg?branch=master)](https://travis-ci.com/github/sindresorhus/move-file-cli)
 
 > Move a file on the command-line
 
 This is a simpler and cross-platform alternative to `mv` for build scripts, etc.
-
 
 ## Install
 
 ```
 $ npm install --global move-file-cli
 ```
-
 
 ## Usage
 
@@ -26,7 +24,6 @@ $ move-file --help
   Example
     $ move-file source/unicorn.png destination/unicorn.png
 ```
-
 
 ## Related
 
