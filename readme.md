@@ -1,4 +1,4 @@
-# move-file-cli [![Build Status](https://travis-ci.com/sindresorhus/move-file-cli.svg?branch=master)](https://travis-ci.com/github/sindresorhus/move-file-cli)
+# move-file-cli
 
 > Move a file on the command-line
 
