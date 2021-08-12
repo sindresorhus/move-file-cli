@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const moveFile = require('move-file');
+import meow from 'meow';
+import {moveFileSync} from 'move-file';
 
 const cli = meow(`
 	Usage
@@ -13,16 +12,15 @@ const cli = meow(`
 	Example
 	  $ move-file source/unicorn.png destination/unicorn.png
 `, {
+	importMeta: import.meta,
 	flags: {
 		overwrite: {
 			type: 'boolean',
-			default: true
-		}
-	}
+			default: true,
+		},
+	},
 });
 
 const [source, destination] = cli.input;
 
-(async () => {
-	await moveFile(source, destination, cli.flags);
-})();
+moveFileSync(source, destination, cli.flags);

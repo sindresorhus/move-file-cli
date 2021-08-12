@@ -10,11 +10,12 @@
 		"email": "sindresorhus@gmail.com",
 		"url": "https://sindresorhus.com"
 	},
+	"type": "module",
 	"bin": {
-		"move-file": "cli.js"
+		"move-file": "./cli.js"
 	},
 	"engines": {
-		"node": ">=10"
+		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -41,13 +42,13 @@
 		"partitions"
 	],
 	"dependencies": {
-		"meow": "^7.0.1",
-		"move-file": "^2.0.0"
+		"meow": "^10.1.1",
+		"move-file": "^3.0.0"
 	},
 	"devDependencies": {
-		"ava": "^2.4.0",
-		"execa": "^4.0.2",
-		"tempy": "^0.5.0",
-		"xo": "^0.32.0"
+		"ava": "^3.15.0",
+		"execa": "^5.1.1",
+		"tempy": "^1.0.1",
+		"xo": "^0.44.0"
 	}
 }
