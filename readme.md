@@ -4,16 +4,18 @@
 
 This is a simpler and cross-platform alternative to `mv` for build scripts, etc.
 
+Note: It only handles a single file at the time. It does not handle directories.
+
 ## Install
 
-```
-$ npm install --global move-file-cli
+```sh
+npm install --global move-file-cli
 ```
 
 ## Usage
 
 ```
-$ move-file --help
+move-file --help
 
   Usage
     $ move-file <source-path> <destination-path>
